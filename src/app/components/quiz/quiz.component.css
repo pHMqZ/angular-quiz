@@ -35,6 +35,11 @@
     margin-bottom: 20px;
 }
 
+.quiz-questions > h3 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .quiz-options {
     display: flex;
     flex-wrap: wrap;
@@ -78,4 +83,23 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+}
+
+.quiz-results > p {
+    margin-bottom: 5px;
+}
+
+.btn-reset {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #4e18ab;
+    width: 30%;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 5px 5px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
 }
